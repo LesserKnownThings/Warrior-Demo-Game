@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf45db9e470eb047ad8f7e9401377e3, type: 3}
+  m_Name: Flame_Engulf
+  m_EditorClassIdentifier: 
+  description: Engulfs the target in flames causing damage
+  damage: 150
+  damage_modifier: 0
+  armor_modifier: 0
+  crit_chance: 25
+  crit_increase: 1.25
+  cooldown: 3
+  death_timer: 3.6
+  spell_go: {fileID: 193170, guid: 2042cc38525335342aa812f32165bafc, type: 3}
+  icon: {fileID: 21300000, guid: 7140c686292792a4abfe218b90b2ae90, type: 3}
+  spell_target: 1
+  spawn_position: {x: 0, y: 0, z: 0}
+  spell_imunity: 0
+  spell_reduction: 0
